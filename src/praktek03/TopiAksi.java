@@ -7,6 +7,13 @@ public class TopiAksi {
         t.setHarga=15000;
         
         t.cetakInfo();
+        
+        System.out.print("Merknya \t: ");
+        System.out.println(t.getMerk());
+        System.out.print("warnanya \t: ");
+        System.out.println(t.getWarna());
+        System.out.print("Harganya \t: ");
+        System.out.println(t.getHarga());
     }
     
 }
