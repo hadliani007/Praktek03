@@ -6,5 +6,14 @@ public class Peci extends Topi{
     void throttle(){
         System.out.println(".........");
     }
+
+    public String getJenisPeci() {
+        return jenisPeci;
+    }
+
+    public void setJenisPeci(String jenisPeci) {
+        this.jenisPeci = jenisPeci;
+    }
+    
     
 }
